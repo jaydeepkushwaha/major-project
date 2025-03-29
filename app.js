@@ -70,7 +70,6 @@ app.post("/listings",async (req,res)=>{
  await newListing.save();
  res.redirect("/listings");
 });
-
 // edit routs
 
 app.get("/listings/:id/edit", async (req,res)=>{
